@@ -4,14 +4,14 @@
 
   //map tells the System loader where to look for things
   var  map = {
-    'app':                        'angular2-challenge', // 'dist',
+    'app':                        './', // 'dist',
     'rxjs':                       'https://npmcdn.com/rxjs@5.0.0-beta.6',
     'angular2-in-memory-web-api': 'https://npmcdn.com/angular2-in-memory-web-api' // get latest
   };
 
   //packages tells the System loader how to load when no filename and/or no extension
   var packages = {
-    'app':                        { main: 'angular2-challenge/main.js',  defaultExtension: 'js' },
+    'app':                        { main: './main.js',  defaultExtension: 'js' },
     'rxjs':                       { defaultExtension: 'js' },
     'angular2-in-memory-web-api': { defaultExtension: 'js' },
   };
